@@ -1,0 +1,34 @@
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+.section-title {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 4rem;
+	font-weight: normal;
+	margin-top: 2em;
+}
+.sticky {
+	overflow: hidden;
+}
+.btn-offerts {
+	display: block;
+	margin: 1.5em auto 0 auto;
+	padding: 0.5em 4em;
+	font-size: 1.6rem;
+	border: none;
+	border-radius: 0.5em;
+	background: none;
+	box-shadow: 0px 0px 5px #888484;
+	transition: transform 0.3s;
+	cursor: pointer;
+	&:hover {
+		transform: translateY(-0.3em);
+	}
+	&--popular {
+		background-color: #38dc74;
+		box-shadow: 0px 0px 5px #38dc74;
+	}
+}
